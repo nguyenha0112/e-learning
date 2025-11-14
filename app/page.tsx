@@ -1,5 +1,12 @@
-import { TrangChu } from '@/components/TrangChu'
+
+"use client";
+import { useAuth } from "@/components/AuthContext";
+import { Dashboard } from "@/components/Dashboard";
+import { GuestWelcome } from "@/components/GuestWelcome";
+
 
 export default function HomePage() {
-  return <TrangChu />
+  const { isAuthenticated } = useAuth();
+
+  return isAuthenticated ? <Dashboard /> : <GuestWelcome />;
 }
