@@ -155,12 +155,12 @@ export default function HoTroPage() {
     <div className="max-w-7xl mx-auto px-6 py-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl mb-2">Bài tập</h1>
+        <h1 className="text-3xl mb-2 text-black">Bài tập</h1>
         <p className="text-gray-600">Luyện tập và kiểm tra kiến thức tiếng Anh của bạn</p>
       </div>
 
       {/* Statistics */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+      <div className="grid text-black grid-cols-1 md:grid-cols-4 gap-6 mb-8">
         <Card className="p-6">
           <div className="flex items-center gap-3 mb-2">
             <div className="bg-blue-100 p-2 rounded-lg">
