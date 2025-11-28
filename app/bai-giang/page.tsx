@@ -14,7 +14,7 @@ import {
   FileText
 } from "lucide-react";
 
-export function BaiGiang() {
+export default function BaiGiang() {
   const lectures = [
     {
       id: 1,

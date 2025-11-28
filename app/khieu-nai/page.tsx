@@ -19,7 +19,7 @@ import {
   Send
 } from "lucide-react";
 
-export function KhieuNai() {
+export default function KhieuNai() {
   const [complaintForm, setComplaintForm] = useState({
     type: "",
     subject: "",

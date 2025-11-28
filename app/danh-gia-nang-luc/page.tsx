@@ -19,7 +19,7 @@ import {
   PlayCircle
 } from "lucide-react";
 
-export function DanhGiaNangLuc() {
+export default function DanhGiaNangLuc() {
   const skillLevels = {
     grammar: { name: "Ngữ pháp", level: 75, color: "bg-blue-500" },
     vocabulary: { name: "Từ vựng", level: 82, color: "bg-green-500" },

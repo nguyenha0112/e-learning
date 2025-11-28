@@ -20,10 +20,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="vi">
+    <html lang="vi" className="light">
       <body className={inter.className}>
         <AuthProvider>
-          <div className="min-h-screen bg-gray-50 flex flex-col">
+          <div className="min-h-screen bg-background flex flex-col">
             <StudyEngEraHeader />
             <main className="flex-1">
               {children}
